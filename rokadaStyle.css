@@ -1,0 +1,2235 @@
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+    display: block;
+}
+
+body {
+    line-height: 1;
+}
+
+ol,
+ul {
+    list-style: none;
+}
+
+blockquote,
+q {
+    quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+    content: '';
+    content: none;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.content {
+    width: 80%;
+    margin: 0 auto;
+    font-family: 'Ubuntu', sans-serif;
+    color: #75859C;
+}
+
+header {
+    margin-top: 2% !important;
+}
+
+#mrezaPic {
+    position: absolute;
+    top: 18%;
+    right: 0;
+    z-index: -5;
+}
+
+#headerLogo {
+    display: inline-block;
+    outline: none;
+}
+
+nav {
+    display: inline-block;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navUl li {
+    display: inline-block;
+    font-size: 18px;
+    letter-spacing: -0.43px;
+}
+
+.navUl a {
+    text-decoration: none;
+    color: #75859C;
+    padding: 8px 16px;
+
+}
+
+.navUl a:hover {
+    color: white !important;
+    background-color: #2300FF;
+    border-radius: 18px;
+    padding: 8px 16px;
+    cursor: pointer;
+}
+
+#headerContact {
+    color: white !important;
+    background-color: #2300FF;
+    border-radius: 18px;
+    padding: 8px 25px;
+    cursor: pointer;
+}
+
+.headerHeadings {
+    margin-top: 14%;
+}
+
+#goingDigital h1 {
+    font-size: 80px;
+    margin-bottom: 3%;
+}
+
+#goingDigital h3 {
+    font-size: 32px;
+    margin-bottom: 3%;
+}
+
+.blueButton {
+    font-size: 24px;
+    font-weight: bold;
+    border-radius: 27.5px;
+    background-color: #2300FF;
+    border: none;
+    color: #fff;
+    padding: 14px 28px;
+    font-family: 'Ubuntu', sans-serif;
+    cursor: pointer;
+}
+
+.blueButton a {
+    padding: 14px 28px;
+    text-decoration: none;
+    color: white;
+}
+
+.blueButton:focus {
+    outline: none;
+}
+
+#logos {
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+}
+
+#logos div {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 8%;
+}
+
+/* #logos img{
+    height: 35px;
+}
+
+#logos p{
+    font-size: 45px;
+    opacity: 0.2;
+} */
+
+/* #logos h3{
+    font-size: 32px;
+    text-align: center;
+    line-height: 48px;
+} */
+
+.h332 {
+    font-size: 32px;
+    text-align: center;
+    line-height: 48px;
+}
+
+.boldSpan {
+    font-weight: bold;
+}
+
+.h2S {
+    font-size: 60px;
+    text-align: center;
+    letter-spacing: -1.45px;
+}
+
+.hrS {
+    background-color: #D8D8D8;
+    height: 4px;
+    border: none;
+    width: 16%;
+    margin-top: 24px;
+    margin-bottom: 10%;
+}
+
+#weAreWeDo>div {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    margin-bottom: 8%;
+    position: relative;
+}
+
+#primaryPic {
+    width: 50%;
+    position: absolute;
+    right: -12%;
+}
+
+#primaryDiv {
+    width: 70%;
+    margin-left: 6%;
+}
+
+
+.p24 {
+    font-size: 22px;
+    line-height: 40px;
+}
+
+.p2432 {
+    font-size: 24px;
+    line-height: 32px;
+}
+
+#weAreWeDoDiv div {
+    margin-top: 3%;
+}
+
+#expect {
+    margin-top: 16%;
+}
+
+#expectFromUs {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#expectFromUs>div {
+    width: 100%;
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 10%;
+    /* justify-content: space-between;
+    font-size: 24px;
+    line-height: 32px;*/
+}
+
+#expectFromUs>div div {
+    width: 100%;
+    display: inline-block;
+    font-size: 24px;
+    line-height: 32px;
+    /* margin-bottom: 10%; */
+
+}
+
+#expectFromUs img {
+    margin-right: 5%;
+}
+
+#expect h4 {
+    font-weight: bold;
+    margin-bottom: 1%;
+}
+
+#heartDiv {
+    text-align: right;
+}
+
+#heartDiv img {
+    margin-right: 0;
+    margin-left: 5%;
+}
+
+
+
+/* #spiritDiv div{
+    display: inline-block;
+    margin-left: 8%;
+} */
+
+#ourProjects {
+    text-align: center;
+    margin-top: 5%;
+}
+
+#ourProjects hr {
+    margin-bottom: 6%;
+}
+
+#ourProjectsIcons {
+    width: 70%;
+    margin: 7% auto 15% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#ourProjectsIcons p {
+    font-size: 24px;
+    margin-top: 15%;
+}
+
+.fs40 {
+    font-size: 40px;
+}
+
+#contactButton {
+    margin-top: 4%;
+    margin-bottom: 15%;
+}
+
+footer {
+    background-image: url('IMAGES/Mask_20Copy_204_cffb54e21a57731c834dc6834faae540.png');
+    background-position: 92%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+
+footer p {
+    font-size: 16px;
+    color: #75859C;
+}
+
+footer a {
+    text-decoration: none;
+    color: #75859C;
+}
+
+#footerDiv {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    line-height: 30px;
+    width: 50%;
+}
+
+#footerDiv div {
+    margin-right: 4%;
+}
+
+footer>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.fa-linkedin-in {
+    background-color: #75859C;
+    color: white;
+    padding: 12px;
+    border-radius: 50%
+}
+
+#logoAndAdrress {
+    line-height: 20px;
+}
+
+#logoAndAdrress img {
+    margin-bottom: 16%;
+}
+
+#logoAndAdrress p:nth-of-type(2) {
+    margin-bottom: 11%;
+}
+
+/* UX DESIGN */
+
+.selectedNav {
+    color: #2300FF;
+    border-bottom: 2px solid #2300ff;
+    padding: 0 0 5px 0;
+    margin-left: 16px;
+    margin-right: 16px;
+}
+
+#fallInLove {
+    margin-top: 10%;
+    margin-bottom: 33%;
+}
+
+#fallInLove h1 {
+    font-size: 60px;
+    line-height: 74px;
+    margin-bottom: 5%;
+}
+
+#fallInLove h4 {
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 1%;
+}
+
+#phonePic {
+    position: absolute;
+    top: 25%;
+    right: 0;
+    z-index: -5;
+}
+
+#steveJobs {
+    margin-top: 20%;
+    margin-bottom: 5%;
+}
+
+#steve {
+    font-size: 24px;
+    letter-spacing: -0.58px;
+    text-align: center;
+    opacity: 0.5;
+    margin-bottom: 13%;
+}
+
+#steveJobs img {
+    margin-left: -6%;
+}
+
+#steveJobs h3 {
+    background-image: url('IMAGES/quotes.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    padding-bottom: 2%;
+}
+
+#steveJobs>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#steveJobs>div:first-of-type {
+    margin-bottom: 6%;
+}
+
+#steveJobs>div:first-of-type div {
+    padding-top: 6%;
+}
+
+#steveJobs>div:nth-of-type(2) {
+    align-items: center;
+    margin-bottom: 14%;
+}
+
+#steveJobs h4 {
+    font-size: 32px;
+    letter-spacing: -0.77px;
+    margin-bottom: 6%;
+}
+
+#steveJobs div p {
+    font-size: 24px;
+    letter-spacing: -0.58px;
+    line-height: 32px;
+    margin-bottom: 6%;
+
+}
+
+#lookEasy {
+    margin-bottom: 18%;
+}
+
+#lookEasy div {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto 12% auto;
+}
+
+#lookEasy div:nth-of-type(2) {
+    text-align: right;
+    justify-content: space-between;
+}
+
+#strenght {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 18%;
+}
+
+#strenght h4 {
+    font-size: 32px;
+    letter-spacing: -0.77px;
+    margin-bottom: 3%;
+}
+
+#strenght p {
+    font-size: 24px;
+    letter-spacing: -0.58px;
+    line-height: 32px;
+}
+
+#strenght div {
+    width: 70%;
+}
+
+#strenght p:nth-of-type(1) {
+    margin-bottom: 3%;
+}
+
+#contactPic {
+    position: absolute;
+    right: -12%;
+}
+
+#getAQuote {
+    margin-top: 5%;
+}
+
+/* EMPLOYEE ENGAGEMENT */
+
+#peoplePic {
+    position: absolute;
+    top: 18%;
+    right: 0;
+    z-index: -5;
+}
+
+
+#engaged {
+    margin-bottom: 27%;
+}
+
+#engaged h1 {
+    font-size: 60px;
+    margin-top: 12%;
+    margin-bottom: 2%;
+}
+
+#engaged h4 {
+    font-size: 24px;
+    margin-bottom: 3%;
+}
+
+#newSkills {
+    /* margin-top: 20%; */
+    text-align: center;
+    margin-bottom: 11%;
+}
+
+#newSkills hr {
+    margin-bottom: 4%;
+}
+
+#newSkills h4 {
+    font-size: 32px;
+    margin-top: 7%;
+}
+
+#newSkills>div {
+    margin: 5% auto 7% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+#newSkills>div div {
+    width: 31%;
+}
+
+
+
+.downloadButton {
+    background-color: #2300FF;
+    padding: 10px 30px;
+    border-radius: 27.5px;
+    color: white;
+    font-size: 24px;
+    outline: none;
+    border: none;
+    font-family: 'Ubuntu';
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#newSkills h5 {
+    margin-bottom: 16px;
+    margin-top: 27px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#deepImpact {
+    display: flex;
+    justify-content: space-between;
+}
+
+#deepImpact img {
+    margin-left: -6%;
+    width: 50%;
+}
+
+#deepImpact div {
+    padding-top: 8%;
+
+}
+
+#deepImpact p {
+    font-size: 24px;
+    line-height: 31px;
+    margin-bottom: 5%;
+}
+
+#digitalKnowledge {
+    margin-bottom: 5%;
+}
+
+#digitalKnowledge hr {
+    margin-bottom: 4%;
+}
+
+#digitalKnowledge p {
+    margin-bottom: 7%;
+    text-align: center;
+}
+
+#digitalIcons {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: 1%;
+}
+
+
+
+#digitalIcons div {
+    margin-top: 4%;
+    margin-bottom: 5%;
+    width: 33%;
+    text-align: center;
+}
+
+#digitalIcons img {
+    margin-bottom: 30px;
+}
+
+#digitalIcons h5 {
+    font-size: 24px;
+}
+
+#creatingCulture {
+    text-align: center;
+}
+
+#creatingCulture hr {
+    margin-bottom: 4%;
+}
+
+#creatingCulture h4 {
+    font-size: 32px;
+    margin-top: 12%;
+
+}
+
+#creatingCulture>div {
+    margin: 6% auto 7% auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+
+
+#creatingCulture>div div {
+    width: 33%;
+}
+
+#creatingCulture h5 {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+#digitalTransformation {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-bottom: 16%;
+    margin-top: 12%;
+}
+
+#digitalTransformation p {
+    font-size: 40px;
+    line-height: 50px;
+}
+
+#digitalTransformation button {
+    margin-top: 6%;
+}
+
+#digitalPic {
+    position: absolute;
+    right: -8%;
+
+}
+
+/* PROCESS OPTIMIZAATION */
+
+#eyeDiv {
+    padding-top: 4% !important;
+}
+
+#hrWhy {
+    margin-bottom: 4%;
+}
+
+#employeeA {
+    color: #2300FF;
+}
+
+#whyDiv div {
+    box-sizing: border-box;
+    background-color: rgba(117, 133, 156, 0.05);
+    padding-top: 44px;
+    padding-bottom: 5px;
+}
+
+.whyWeDoDiv {
+    margin-top: 12%;
+}
+
+#whyDiv div:nth-of-type(2) {
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.puzzle {
+    margin-bottom: 21% !important;
+}
+
+.puzzle div {
+    margin-top: 5%;
+}
+
+#processOpti {
+    margin-top: 10% !important;
+}
+
+/* DEVELOPMENT */
+
+.devHeader h1 {
+    font-size: 56px !important;
+}
+
+.fullService div {
+    padding-top: 1% !important;
+}
+
+/* #secondTopPic{
+    width: 49%;
+} */
+
+#discovery {
+    margin-bottom: 12%;
+}
+
+#discovery div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    align-content: center;
+}
+
+#discovery img {
+    margin-right: 8%;
+}
+
+#discovery hr {
+    margin-bottom: 4%;
+}
+
+.development div {
+    align-items: center !important;
+}
+
+.development h5 {
+    font-weight: bold !important;
+    margin-top: 5%;
+}
+
+#integration>div {
+    display: flex;
+    justify-content: space-between;
+}
+
+#integration img {
+    margin-left: -6%;
+    width: 47.5%;
+}
+
+.developmentTellUs {
+    margin-top: 2% !important;
+}
+
+/* ABOUT US */
+
+#aboutUsHeader {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#aboutUsHeader h1 {
+    font-size: 54px;
+    line-height: 64px;
+    margin-top: 10%;
+    margin-bottom: 4%;
+}
+
+#aboutUsHeader button {
+    margin-bottom: 12%;
+}
+
+#aboutUsHeader>div {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+}
+
+#aboutUsHeader img:last-of-type {
+    margin-right: 5%;
+}
+
+#guiding div {
+    width: 50%;
+    margin: 0 auto 10% auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#whyUs {
+    margin-top: 12%;
+    margin-bottom: 9%;
+}
+
+
+#whyUs>div {
+    width: 80%;
+    margin: 0 auto 7% auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+#whyUs>div div {
+    width: 33%;
+    margin-right: 10px;
+    padding: 20px 45px;
+    display: flex;
+    /* justify-content: space-around; */
+    align-items: center;
+    font-size: 24px;
+    line-height: 28px;
+    border: 3px solid rgb(117, 133, 156, 0.2);
+    border-radius: 60px;
+}
+
+#whyUs img {
+    margin-right: 30px;
+}
+
+#andGrowing {
+    text-align: center;
+    margin-bottom: 10%;
+}
+
+#andGrowing h5 {
+    font-size: 32px;
+    margin-bottom: 7%;
+}
+
+#andGrowing img {
+    margin-bottom: 20%;
+}
+
+#andGrowing>div {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+#joinUs {
+    text-align: center;
+    margin-bottom: 13%;
+}
+
+#joinUs p {
+    margin-bottom: 3%;
+    margin-top: 5%;
+}
+
+
+
+/* CONTACT */
+
+
+
+#contactForm {
+    margin: 0 auto 10% auto;
+    width: 33%;
+    box-shadow: 1px 1px 44px rgba(38, 63, 90, 0.09);
+    padding: 3.2% 4% 6% 4%;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+label {
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+label:last-of-type {
+    margin-bottom: 7%;
+}
+
+label p {
+    color: #2C1F7B;
+    font-weight: bold;
+    margin-bottom: 4%;
+}
+
+
+#name,
+#email {
+    width: 100%;
+    border: 0;
+    border-bottom: 2px solid #dee6eb;
+    padding-bottom: 18px;
+    /* color: #2C1F7B; */
+    font-size: 18px;
+    outline: none;
+    margin-bottom: 10%;
+    font-family: 'Ubuntu', sans-serif;
+
+}
+
+#name:focus,
+#email:focus {
+    border-bottom: 2px solid #2C1F7B;
+
+}
+
+#message {
+    width: 100%;
+    border: 2px solid #dee6eb;
+    outline: none;
+    margin-bottom: 7%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+#message:focus {
+    border: 2px solid #2C1F7B;
+
+}
+
+#contactH2 {
+    font-family: 'Ubuntu', sans-serif;
+    /* color: #2C1F7B; */
+    font-size: 2rem;
+    text-align: center;
+    margin: 5% 0 0 0;
+    font-weight: bold;
+}
+
+#contactH2+hr {
+    width: 14%;
+    background-color: #2300FF;
+    height: 4px;
+    margin-bottom: 6%;
+}
+
+#submit {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    background-color: #2300ff;
+    outline: none;
+    border-radius: 27.5px;
+    border: none;
+    color: #fff;
+    padding: 14px 28px;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    float: right;
+}
+
+
+
+#successH4 {
+    font-family: 'Ubuntu', sans-serif;
+    background-color: #2C1F7B;
+    margin: 0 auto 6%;
+    width: 40%;
+    border-radius: 5px;
+    color: white;
+    padding: 12px;
+    text-align: center;
+}
+
+#wrongH4 {
+    background-color: #DF3C7B;
+    font-family: 'Ubuntu', sans-serif;
+    margin: 0 auto 3%;
+    width: 40%;
+    border-radius: 5px;
+}
+
+#contactFooter {
+    padding-top: 7%;
+    padding-bottom: 2%;
+}
+
+#contactFooter p {
+    margin-bottom: 7%;
+}
+
+/* MOBILE DISPLAY NONE */
+
+Ohr#nav2 {
+    display: none;
+}
+
+.mobileP24 {
+    display: none;
+}
+
+#heartDiv2 {
+    display: none !important;
+}
+
+#nav2 {
+    display: none;
+}
+
+.footer404{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    right: 0;
+}
+
+#errorBody{
+    
+    margin-bottom: 0;
+    
+}
+
+#errorDiv{
+    margin: 5% auto;
+    width: 59%;
+    font-family: 'Ubuntu', sans-serif;
+    color: #75859C;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#errorDiv h2{
+    font-size: 36px;
+}
+
+#errorDiv h5{
+    font-size: 25px;
+    margin-bottom: 8%;
+    margin-top: 4%;
+}
+
+#errorDiv p{
+    font-size: 200px;
+    color: #75859C;
+    font-weight: bold;
+}
+
+
+
+
+
+@media (min-width: 601px) and (max-width: 1350px){
+
+    .content{
+        width: 95%;
+    }
+
+    #mrezaPic{
+        display: none;
+    }
+
+    .headerHeadings{
+        text-align: center;
+    }
+
+    #nav1 {
+        display: none;
+    }
+
+    #nav2 {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-top: 4%;
+    }
+
+    #nav2 li {
+        list-style-type: none;
+        padding: 6px 0;
+        text-align: center;
+    }
+
+    #nav2 li a {
+        color: #75859C;
+        text-decoration: none;
+        font-size: 1.4rem;
+        /* border-bottom: 1px solid #75859C;  */
+        
+    }   
+
+    .mobileP24{
+        display: block;
+    }
+
+    .desctopP24{
+        display: none;
+    }
+
+    .logosIMG{
+        display: none;
+    }
+
+    #message{
+        font-size: 24px;
+    }
+
+    #logos div {
+        margin-bottom: 13%;
+    }  
+    
+    #primaryPic {
+        right: -2%;
+    }
+
+    #primaryDiv {
+        width: 100%;
+        margin-left: 0;
+
+    }
+    
+    #headerlogo img{
+        width: 130%;
+    }
+
+    footer>div {
+        justify-content: space-around;
+    }
+
+    #weAreWeDo>div {
+        margin-bottom: 13%;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    #weAreWeDo>div:last-of-type{
+        flex-direction: column-reverse;
+    }
+
+    #logos{
+        margin-bottom: 20%;
+    }
+
+    #expectFromUs>div div{
+        font-size: 21px;
+    }
+
+    #expect{
+        margin-top: 20%;
+        margin-bottom: 20%;
+    }
+
+    #weAreWeDo>div img{
+        width: 65%;
+        margin: 0 auto;
+    }
+
+    #primaryPic{
+        position: relative;
+    }
+
+    #expectFromUs>div{
+        width: 90%;
+    }
+
+
+    #ourProjectsIcons{
+        width: 85%;
+        margin: 14% auto 26% auto;
+    }
+
+    .invis {
+        display: none;
+    }
+
+    #navVisible {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .fa-bars {
+        font-size: 40px;
+        border: 1px solid #75859C;
+        padding: 10px 10px;
+        border-radius: 4px;
+        color: rgba(0, 0, 0, .3);
+        border-color: rgba(0, 0, 0, .1);
+        }
+
+        #peoplePic{
+            display: none;
+        }
+
+        #engaged{
+            text-align: center;
+        }
+
+        #deepImpact img{
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        #deepImpact{
+            margin-bottom: 20%;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #discovery{
+            margin-bottom: 20%;
+        }
+
+        #integration img {
+            margin: 0 auto;
+            width: 75%;
+        }
+
+        #newSkills>div {
+            margin: 12% auto 20% auto;
+        }
+
+        #digitalPic{
+            position: relative;
+            right: 0;
+        }
+
+        #digitalTransformation{
+            flex-direction: column-reverse;
+            margin-top: 20%;
+            margin-bottom: 20%;
+        }
+
+        .puzzle div{
+            text-align: center;
+            margin-top: 0;
+        }
+
+        #integration>div{
+            margin-bottom: 20%;
+            flex-direction: column;
+            text-align: center;
+        }
+
+        #phonePic{
+            display: none;
+        }
+
+        #fallInLove{
+            text-align: center;
+        }
+
+        /* #steveJobs>div:first-of-type img{
+            width: 62%;
+        } */
+
+        #contactPic{
+            position: relative;
+            right: 0;
+            width: 75%;
+            margin: 0 auto;
+        }
+
+        #fallInLove{
+            margin-bottom: 23%;
+        }
+
+        #steveJobs img{
+            margin-left: 0;
+        }
+
+        #steveJobs > div:first-of-type div{
+            text-align: center;
+        }
+
+        #steveJobs>div:nth-of-type(2){
+            flex-direction: column-reverse;
+            text-align: center;
+        }
+
+        #strenght{
+            flex-direction: column-reverse;
+        }
+
+        #strenght div{
+            text-align: center;
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        #humanPic{
+            margin-bottom: 5%;
+        }
+
+        #lookEasy div{
+            width: 100%;
+        }
+
+        #lookEasy div img{
+            margin-right: 8%;
+        }
+
+        #helpPic{
+            margin-right: 0 !important;
+            margin-left: 8%;
+        }
+
+        #steve{
+            margin-bottom: 20%;
+        }
+
+        #steveJobs{
+            margin-bottom: 20%;
+        }
+
+        #digitalPic{
+            width: 75%;
+        margin: 0 auto;
+        }
+
+        #newSkills>div{
+            align-items: flex-start;
+        }
+
+        #deepImpact div{
+            padding-top: 0;
+        }
+
+        #lookEasy{
+            margin-bottom: 20%;
+        }
+
+        #digitalTransformation div{
+            text-align: center;
+        }
+
+        #digitalKnowledge{
+            margin-bottom: 20%;
+        }
+
+        #creatingCulture h5{
+            margin-top: 30px;
+        }
+
+        #engaged {
+            margin-bottom: 20%;
+        }
+
+        #aboutUsHeader h1{
+            margin-top: 16%;
+        }
+
+        #aboutUsHeader>div{
+            margin: 10% auto;
+            width: 90%; 
+        }
+
+        #guiding div{
+            width: 75%; 
+        }
+
+        #whyUs>div{
+            justify-content: space-around;
+            width: 100%;
+        }
+
+        #aboutUsHeader{
+            margin-bottom: 20%;
+        }
+
+        #whyUs{
+            margin-top: 20%;
+            margin-bottom: 15%;
+        }
+
+        #andGrowing>div p{
+            padding: 1px;
+        }
+
+        #andGrowing img{
+            margin-bottom: 12%;
+        }
+
+        #andGrowing>div{
+            margin-top: 11%;
+        }
+
+        #andGrowing{
+            margin-bottom: 20%;
+        }
+
+        #joinUs{
+            margin-bottom: 20%;
+        }
+
+        #contactForm{
+            width: 80%;
+    }
+    
+    #submitLabel{
+        display:flex;
+        justify-content: center;
+    }
+    
+    #contactH2{
+        font-size: 43px;
+        margin: 5% 0px 30px 0;
+    }
+    
+    #name, #email{
+        font-size: 26px;
+    }
+    
+    label p{
+        font-size: 26px;
+    }
+
+    #steveJobs > div:first-of-type div{
+        padding-top: 0%;
+    }
+
+    #steveJobs>div:first-of-type{
+        flex-direction: column;
+    }
+
+    
+}
+
+@media screen and (max-width: 600px) {
+    #errorDiv{
+        flex-direction: column;
+        width:90%;
+    }
+    
+    #errorDiv h2{
+       font-size: 30px;
+    }
+    
+    #errorDiv p{
+        font-size:100px;
+    }
+
+    #errorDiv div{
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #errorPic{
+        position:absolute;
+        bottom: 0;
+    }
+    
+    #navButton {
+        padding: 10px 9px;
+    }
+
+    .content {
+        box-sizing: border-box;
+        width: 100%;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #nav1 {
+        display: none;
+    }
+
+    #nav2 {
+        display: block;
+        width: 100%;
+        padding: 0;
+        margin-top: 4%;
+    }
+
+    #nav2 li {
+        list-style-type: none;
+        padding: 6px 0;
+    }
+
+    #nav2 li a {
+        color: #75859C;
+        text-decoration: none;
+        font-size: 1rem;
+    }
+
+    #headerlogo img {
+        width: 70% !important;
+    }
+
+    #mrezaPic {
+        display: none;
+    }
+
+    #navVisible {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    #goingDigital h1 {
+        font-size: 34px;
+    }
+
+    #goingDigital h3 {
+        font-size: 14px;
+    }
+
+    .blueButton {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    #logos {
+        margin-bottom: 27%;
+        margin-top: 27%;
+    }
+
+    #logos div {
+        display: none;
+    }
+
+    .h332 {
+        font-size: 18px;
+        line-height: 1.5em;
+    }
+
+    .h2S {
+        font-size: 25px;
+        letter-spacing: normal;
+        margin-bottom: 20%;
+    }
+
+    .hrS {
+        display: none;
+    }
+
+    .p24 {
+        font-size: 16px;
+        line-height: 1.5em;
+    }
+
+    #weAreWeDo>div {
+        flex-direction: column;
+        margin-bottom: 11%;
+    }
+
+    #weAreWeDo>div:last-of-type {
+        flex-direction: column-reverse;
+    }
+
+    #primaryPic {
+        position: relative;
+        right: 0;
+    }
+
+    #primaryDiv {
+        width: 100%;
+        text-align: center;
+        margin-left: 0;
+        margin-top: -8%;
+    }
+
+    #weAreWeDoDiv div {
+        margin-top: -8%;
+        text-align: center;
+        margin-bottom: 18%;
+    }
+
+    #weAreWeDo img {
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .desctopP24 {
+        display: none;
+    }
+
+    .mobileP24 {
+        display: block;
+    }
+
+    #ourProjectsIcons {
+        flex-direction: column;
+        margin: 5% auto 21% auto;
+    }
+
+    #ourProjectsIcons img {
+        width: 40%;
+    }
+
+    #ourProjectsIcons p {
+        margin-top: 5%;
+        font-size: 22px;
+    }
+
+    #ourProjectsIcons div {
+        margin-top: 35%;
+    }
+
+    footer {
+        padding-bottom: 0;
+    }
+
+
+    #footerDiv {
+        display: none;
+    }
+
+    footer p {
+        display: none;
+    }
+
+    #footerDiv+div {
+        display: none;
+    }
+
+    #logoAndAdrress {
+        margin: 0 auto;
+    }
+
+    #expectFromUs>div {
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 15%;
+    }
+
+    .fa-bars {
+        font-size: 22px;
+        border: 1px solid #75859C;
+        padding: 10px 10px;
+        border-radius: 4px;
+        color: rgba(0, 0, 0, .3);
+        border-color: rgba(0, 0, 0, .1);
+    }
+
+    .invis {
+        display: none;
+    }
+
+    #expectFromUs>div div {
+        text-align: center;
+    }
+
+    #expect p {
+        font-size: 16px;
+        margin-bottom: 12%;
+        line-height: 1.5em;
+    }
+
+    #expectFromUs img {
+        margin-bottom: 8%;
+        width: 31%;
+    }
+
+    #heartDiv {
+        display: none !important;
+    }
+
+    #heartDiv2 {
+        display: flex !important;
+    }
+
+    .p2432 {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    .fs40 {
+        font-size: 23px;
+        line-height: 1.2em;
+        margin-bottom: 3%;
+    }
+
+    #ourProjects hr {
+        margin-bottom: 16%;
+    }
+
+    #ourProjects h2 {
+        margin-bottom: 11%;
+    }
+
+    .headerHeadings {
+        text-align: center;
+    }
+
+    #expect h4 {
+        font-size: 22px;
+    }
+
+    #weAreWeDo {
+        margin-top: 18%;
+        margin-bottom: 21%;
+    }
+
+    #peoplePic {
+        display: none;
+    }
+
+    #engaged {
+        text-align: center;
+    }
+
+    #engaged h4 {
+        font-size: 14px;
+    }
+
+    #engaged h1 {
+        font-size: 34px;
+        margin-bottom: 3%;
+        margin-top: 19%;
+    }
+
+    .devHeader h1 {
+        font-size: 32px !important;
+    }
+
+    #newSkills>div {
+        flex-direction: column;
+    }
+
+    #deepImpact {
+        flex-direction: column;
+    }
+
+    #deepImpact p {
+        font-size: 16px;
+        text-align: center;
+    }
+
+    #deepImpact img {
+        margin-left: 3%;
+        width: 100%;
+    }
+
+    #deepImpact div {
+        margin-bottom: 20%;
+    }
+
+    #discovery {
+        margin-bottom: 20%;
+    }
+
+    #discovery div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    #discovery img {
+        margin-right: 0;
+        margin-bottom: 15%;
+        width: 40%;
+    }
+
+    #newSkills {
+        margin-bottom: 20%;
+    }
+
+    #newSkills>div div {
+        width: 100%;
+    }
+
+    #newSkills>div div:nth-of-type(2) {
+        margin-bottom: 25%;
+        margin-top: 25%;
+    }
+
+    #newSkills h5 {
+        font-size: 22px;
+        margin-top: 5%;
+    }
+
+    #integration>div {
+        flex-direction: column;
+    }
+
+    #integration img {
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    #integration {
+        margin-bottom: 20%;
+    }
+
+    #digitalTransformation {
+        flex-direction: column-reverse;
+        margin-top: 23%;
+        text-align: center;
+    }
+
+    #digitalTransformation p {
+        font-size: 23px;
+        line-height: 1.2em;
+        margin-bottom: 3%;
+    }
+
+    #digitalPic {
+        position: relative;
+        right: 0;
+        width: 100%;
+        margin-left: 3%;
+    }
+
+    .puzzle div {
+        text-align: center;
+    }
+
+    #phonePic {
+        display: none;
+    }
+
+    #fallInLove {
+        text-align: center;
+        margin-top: 19%;
+    }
+
+    #fallInLove h1 {
+        font-size: 32px;
+        line-height: 1em;
+        margin-bottom: 3%;
+    }
+
+    #fallInLove h4 {
+        font-size: 14px;
+    }
+
+    .logosIMG {
+        width: 100%;
+    }
+
+    .logosIMG:first-of-type {
+        margin-top: 15%;
+    }
+
+    #steve {
+        font-size: 16px;
+        margin-bottom: 20%;
+    }
+
+    #steveJobs {
+        margin-bottom: 20%;
+    }
+
+    #steveJobs>div {
+        flex-direction: column;
+    }
+
+    #steveJobs>div:nth-of-type(2) {
+        flex-direction: column-reverse;
+        margin-top: 20%;
+    }
+
+    #steveJobs img:nth-of-type(1) {
+        margin-left: 3%;
+        width: 100%;
+    }
+
+    #steveJobs div p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    #steveJobs h4 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #steveJobs #humanPic {
+        width: 38%;
+        margin-bottom: 20%;
+    }
+
+    #lookEasy div {
+        flex-direction: column;
+        margin-bottom: 25%;
+    }
+
+    #lookEasy div img {
+        margin-bottom: 10%;
+    }
+
+    #lookEasy div:nth-of-type(2) {
+        flex-direction: column-reverse;
+    }
+
+    #strenght {
+        flex-direction: column-reverse;
+        margin-top: 20%;
+        text-align: center;
+    }
+
+    #strenght div{
+        width: 100%;
+    }
+
+    #strenght h4 {
+        font-size: 22px;
+        text-align: center;
+    }
+
+    #strenght p {
+        font-size: 16px;
+        text-align: center;
+        line-height: 1.5em;
+    }
+
+    #contactPic {
+        position: relative;
+        right: 0;
+        width: 100%;
+    }
+
+    .whyWeDoDiv h5{
+        font-size: 18px !important;
+    }
+
+    .whyWeDoDiv img{
+        width: 31%;
+    }
+
+    #digitalIcons{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 20%;
+    }
+
+    #digitalIcons h5{
+        font-size: 16px;
+    }
+
+    #digitalIcons div{
+        width: 100%;
+        margin-top: 15%;
+        margin-bottom: 8%;
+    }
+
+    #newSkills h4{
+        font-size: 18px;
+    }
+
+    #creatingCulture>div{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #creatingCulture>div div{
+        width: 100%;
+    }
+
+    .downloadButton{
+        font-size: 14px;
+        padding: 6px 12px;
+    }
+
+    .employeeSkills h4{
+        font-size: 22px !important;
+    }
+
+    .employeeSkills h5{
+        font-size: 18px !important;
+        line-height: 1em !important;
+    }
+
+    #employeeHow{
+        margin-top: 20% !important;
+        margin-bottom: 10% !important;
+    }
+
+    #creatingCulture h4{
+        font-size: 22px;
+        margin-bottom: 10%;
+        margin-top: 20%;
+    }
+
+    #creatingCulture h5{
+        font-size: 18px;
+        line-height: 1em;
+        margin-bottom: 16px;
+        margin-top: 22px;
+    }
+
+    #creatingCulture>div div:nth-of-type(2){
+        margin-bottom: 25%;
+        margin-top: 25%;
+    }
+
+    #aboutUsHeader{
+        text-align: left;
+        margin-bottom: 20%;
+    }
+
+    #aboutUsHeader h1{
+        text-align: center;
+        font-size: 32px;
+        margin-bottom: 3%;
+        margin-top: 19%;
+        line-height: 1em;
+    }
+
+    #aboutContactButton{
+        display: block;
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    #aboutUsHeader > div{
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+    }
+
+    #aboutPeople{
+        width: 33%;
+        margin-right: 0;
+        margin-top: 20%;
+        margin-bottom: 10%;
+    }
+
+    #guiding div{
+        width: 100%;
+        flex-direction: column;
+        margin-bottom: 22%;
+    }
+
+    #guiding div p{
+        margin-top: 11px;
+    }
+
+    #whyUs{
+        margin-bottom: 20%;
+    }
+
+    #whyUs > div{
+        flex-direction: column;
+        align-items: center;
+        margin-bottom: 12%;
+    }
+
+    #whyUs > div div{
+        width: 100%;
+        height: 50px;
+        padding: 19px 31px;
+        margin-right: 0;
+    }
+
+    #whyUs > div div:first-of-type{
+        margin-bottom: 12%;
+    }
+
+    #whyUs p{
+        font-size: 16px;
+    }
+
+    #whyUs img{
+        width: 16%;
+        margin-left: 10px;
+        margin-right: 48px;
+    }
+
+    #andGrowing > div div{
+        margin-bottom: 22%;
+    }
+
+    #andGrowing > div{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 18%;
+    }
+
+    #andGrowing h5{
+        font-size: 22px;
+    }
+
+    #andGrowing p{
+        font-size: 16px;
+    }
+
+    #andGrowing img{
+        margin-bottom: 9%;
+    }
+
+    #joinUs img{
+        width: 26%;
+    }
+
+    #contactFooter{
+        padding-top: 10%;
+        padding-bottom: 0;
+    }
+
+    #submit{
+        font-size: 14px;
+        padding: 6px 12px;
+        /* margin: 0 32%; */
+    }
+
+    #contactH2{
+        font-size: 32px;
+        margin-bottom: 5%;
+    }
+
+    #contactForm{
+        width: 80%;
+        padding: 3.2% 4% 7% 4%;
+        margin: 0 auto 20% auto;
+    }
+
+    #submitLabel{
+        display: flex;
+        justify-content: center;
+    }
+
+   
+
+
+}

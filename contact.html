@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="rokadaStyle.css">
+    <link rel="stylesheet" href="motion.min.css">    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./IMAGES/16_747c9e3dd3fe663082c99cb830b3f246.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,400i,500,500i,700,700i" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/"
+        crossorigin="anonymous">
+</head>
+
+<body>
+
+    <header class="content" id="aboutUsHeader">
+
+        <nav class="animation fade-in-down" id="nav1">
+            <div id="headerLogo">
+                <a href="index.html">
+                    <img src="IMAGES/LogoOnWhite (1).svg" alt="">
+                </a>
+            </div>
+
+            <ul class="navUl">
+                <li><a href="Development.html">Development</a></li>
+                <li><a href="UX Design.html">UX Design</a></li>
+                <li><a href="Process Optimization.html">Process Optimization</a></li>
+                <li><a href="Employee.html">Employee Engagement</a></li>
+                <li><a href="About us.html">About</a></li>
+            </ul>
+        </nav>
+
+        <nav class="animation fade-in-down" id="nav2">
+                <div id="navVisible">
+                    <div id="headerlogo">
+                        <a href="index.html"><img src="IMAGES/LogoOnWhite (1).svg" alt=""></a>
+                    </div>
+                    <div>
+                        <i class="fas fa-bars"></i>
+                    </div>
+                </div>
+                <div id="invis" class="invis">
+                    <li><a href="Development.html">Development</a></li>
+                    <li><a href="UX Design.html" >UX Design</a></li>
+                    <li><a href="Process Optimization.html">Process Optimization</a></li>
+                    <li><a href="Employee.html">Employee Engagement</a></li>
+                    <li><a href="About us.html">About</a></li>
+                </div>
+    
+            </nav>
+
+
+    </header>
+
+    <h2 id="contactH2">Send Message</h2>
+    <hr class="desctopP24">
+    <form method="post" name="myemailform" action="" id="contactForm">
+
+        <label for="name" id="nameLabel">
+            <input type="text" name="name" id="name" placeholder="Your Name" require>
+        </label>
+        <label for="email">
+            <input type="text" name="email" id="email" placeholder="Email" require>
+        </label>
+        <label for="message">
+            <p>Message:</p>
+            <textarea name="msg" id="message" rows="6"></textarea>
+        </label>
+        <br>
+        <div id="submitLabel">
+            <input type="submit" name='submit' value="Send Form" id="submit">
+        </div>
+    </form>
+
+    <!-- <?php
+	if(isset($_POST['submit'])){
+		$name=$_POST['name'];
+		$email=$_POST['email'];
+		$msg=$_POST['msg'];
+
+		$to='urosmijatovic87@gmail.com'; // Receiver Email ID, Replace with your email ID
+		$subject='Form Submission';
+		$message="Name :".$name."\n"."Wrote the following :"."\n\n".$msg;
+		$headers="From: ".$email;
+
+		if(mail($to, $subject, $message, $headers)){
+			echo "<h4 id='successH4'>Sent Successfully! Thank you"." ".$name.", We will contact you shortly!</h4>";
+		}
+		else{
+			echo "<h4 id='wrongH4'>Something went wrong!</h4>";
+		}
+	}
+?> -->
+
+    <footer id="contactFooter">
+        <div class="content">
+            <div id="logoAndAdrress">
+                <a href="index.html"><img src="IMAGES/LogoOnWhite (1).svg" alt=""></a>
+            </div> 
+
+            <div>
+                <p>office@rokada.io</p>
+                <p>+381 60 4400 308</p>
+            </div>
+            <div>
+                <p>13 Svetozara Corovica</p>
+                <p>Serbia, BG 11000</p>
+            </div>
+            <div class="desctopP24">
+                <a href="https://www.linkedin.com/company/rokada"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
